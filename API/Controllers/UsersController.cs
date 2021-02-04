@@ -32,5 +32,12 @@ namespace API.Controllers
             return await _context.Users.FindAsync(id);     
         }
 
+        [HttpPostAttribute]
+        public OkResult SetUser()
+        {
+            return new OkResult();
+        }
+        
+
     }
 }
