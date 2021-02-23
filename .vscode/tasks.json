@@ -37,6 +37,28 @@
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
-        }
+        }/*,
+        {
+            "label": "ng serve",
+            //"command": "ng",
+            "type": "npm",
+            "script": "start",
+            "problemMatcher": [],
+            "group": {
+              "kind": "build",
+              "isDefault": true
+            }
+          },
+          {
+            "label": "ng test",
+            //"command": "ng",
+            "type": "npm",
+            "script": "test",
+            "problemMatcher": [],
+            "group": {
+              "kind": "test",
+              "isDefault": true
+            }
+        }*/
     ]
 }
